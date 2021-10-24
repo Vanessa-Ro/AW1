@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Gorjetas</title>
+
+    <!-- Arrumar icone -->
+    <link rel="icon" href="./img/teste.jpg">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="container header">
+            <h1>Calculadora de Gorjetas</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container box">
+            <div class="form">
+                <form action="" target="_blank" method="post" id="form">
+                    <div class="calculation">
+                        <h2>Dados</h2>
+
+                        <div class="type-icon space">
+                            <label for="type-coin">Tipo de moeda:</label>
+                            <select name="type-coin" id="type-coin">
+                                <option value="real">Real Brasileiro</option>
+                                <option value="dolar">Dólar Americano</option>
+                                <option value="euro">Euro</option>
+                                <option value="libra">Libra Esterlina</option>
+                            </select>
+                        </div>
+
+                        <div class="value space">
+                            <label for="value">Valor da conta:</label>
+                            <input type="number" name="value" id="value" placeholder="54,21" min="0" >
+                        </div>
+
+                        <div class="tip space">
+                            <label for="tip">Porcentagem da gorjeta:</label>
+                            <input type="number" name="tip" id="tip" placeholder="10" min="0">
+                        </div>
+
+                        <div class="people space">
+                            <label for="people">Número de pessoas:</label>
+                            <input type="number" name="people" id="people" placeholder="2" min="0">
+                        </div>
+                        <small id="error"></small>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form">
+                <form action="" target="_blank" method="post">
+                    <div class="result">
+                        <h2>Resultado</h2>
+
+                        <div class="total-tip space">
+                            <label for="total-tip">Total da gorjeta:</label>
+                            <input type="text" name="total-tip" id="total-tip" readonly>
+                        </div>
+
+                        <div class="tip-people space">
+                            <label for="tip-people">Gorjeta por pessoa:</label>
+                            <input type="text" name="tip-people" id="tip-people" readonly>
+                        </div>
+
+                        <div class="total-people space">
+                            <label for="total-people">Total por pessoa:</label>
+                            <input type="text" name="total-people" id="total-people" readonly>
+                        </div>
+
+                        <div class="total space">
+                            <label for="total">Total a pagar:</label>
+                            <input type="text" name="total" id="total" readonly>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-medias">
+                <ul>
+                    <li><a href="mailto:vanessarodriguescardoso8@gmail.com" target="_blank"><i
+                                class="icon-mail"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/vanessa-rodriguesc" target="_black"><i
+                                class="icon-linkedin"></i></a></li>
+                    <li><a href="https://github.com/Vanessa-Ro" target="_black"><i class="icon-github"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="copyright">
+                <h3>Calculadora de Gorjetas</h3>
+                <h4>Copyright 2021 Vanessa Rodrigues</h4>
+                <h4>Todos os direitos reservados</h4>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
