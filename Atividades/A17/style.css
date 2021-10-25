@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url(https://http2.mlstatic.com/D_NQ_NP_851008-MLB28825550955_112018-O.jpg);
+    background-size: cover;
+    color: rgb(48, 48, 48);
+    padding: 3rem;
+}
+
+header{
+    background-color: rgb(245, 229, 151);
+    width: 40rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgba(46, 43, 27, 0.664);
+    padding: 1.5rem 1rem;
+}
+
+h1, h4{
+    text-align: center;
+    color: rgb(46, 43, 27);
+    margin: 1rem 0;
+}
+
+form{
+    width: 80%;
+    max-width: 30rem;
+    min-width: 18rem;
+    margin: auto;
+    padding: 3rem;
+    background-color: rgb(255, 253, 247);
+    border-radius: 1rem;
+}
+
+form fieldset{
+    padding: 1rem;
+    border-color: rgb(245, 229, 151);
+    border-radius: 1rem;
+    margin: 1rem 0;
+}
+
+form label, form input{
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    margin: 0.5rem 0;
+}
+
+form input{
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(245, 229, 151);
+    background-color: rgba(245, 229, 151, 0.5);
+}
+
+form input:focus{
+    outline: none;
+    background-color: white;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+.errorInput{
+    border: 1px solid red;
+}
+
+button{
+    width: 40%;
+    min-width: 6.25rem;
+    padding: 0.5rem;
+    background-color: rgb(245, 229, 151);
+    color: rgb(100, 90, 36);
+    border: 1px solid rgb(100, 90, 36);
+    border-radius: 0.25rem;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+button:hover{
+    opacity: 1;
+}
