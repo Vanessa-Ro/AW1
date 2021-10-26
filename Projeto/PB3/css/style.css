@@ -281,6 +281,14 @@ hr {
     gap: 1rem;
   }
 
+  .icon-calculator {
+    margin-left: 2rem;
+  }
+
+  .icon-banknote {
+    margin-right: 2rem;
+  }
+
   .tip label {
     white-space: nowrap;
   }
@@ -297,14 +305,6 @@ hr {
 @media (max-width: 320px) {
   h1 {
     font-size: 1.65rem;
-  }
-
-  .icon-calculator {
-    margin-left: 2rem;
-  }
-
-  .icon-banknote {
-    margin-right: 2rem;
   }
 
   .icon-wallet {
