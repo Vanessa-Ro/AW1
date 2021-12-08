@@ -1,0 +1,25 @@
+/* *{
+    margin: 0 !important; 
+    padding: 0 !important;
+    box-sizing: border-box !important;
+} */
+
+body {
+  background-image: url(https://cdn1.vectorstock.com/i/1000x1000/87/85/flat-city-scene-1-vector-1888785.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.container {
+  overflow: hidden;
+  width: 50%;
+  margin-top: 10rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#div-uf {
+    padding-left: 3rem;
+}
+
+
